@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+    font-size: 11pt;
+}
+
+table, tr, td{
+    /*border: 1px solid black;*/
+}
+table{
+    width: 100%;
+}
+
+.encabezado{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.fecha{
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+.centro{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.texto{
+    line-height: 30px;
+    text-align: justify;
+    text-indent: 48px;
+    padding: 5px 0 5px 0;
+}
+
+.postdata{
+    font-size: 9pt;
+}

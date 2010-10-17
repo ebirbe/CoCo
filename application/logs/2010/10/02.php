@@ -1,0 +1,17 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2010-10-02 10:54:09 --- ERROR: ErrorException [ 4096 ]: Argument 2 passed to Model_Envio::subir_info() must be an instance of string, string given, called in /var/www/cc/application/classes/controller/envio.php on line 91 and defined ~ APPPATH/classes/model/envio.php [ 73 ]
+2010-10-02 11:42:29 --- ERROR: ErrorException [ 8 ]: Undefined index: cat ~ APPPATH/classes/controller/envio.php [ 69 ]
+2010-10-02 11:43:38 --- ERROR: ErrorException [ 8 ]: Undefined index: cat ~ APPPATH/classes/controller/envio.php [ 70 ]
+2010-10-02 11:48:18 --- ERROR: ErrorException [ 8 ]: Undefined variable: categoria ~ APPPATH/views/envio/subir.php [ 10 ]
+2010-10-02 12:21:47 --- ERROR: ErrorException [ 8 ]: Undefined variable: envio ~ APPPATH/views/envio/envio.php [ 7 ]
+2010-10-02 12:25:42 --- ERROR: ErrorException [ 8 ]: Undefined variable: envio ~ APPPATH/views/envio/envio.php [ 7 ]
+2010-10-02 12:26:06 --- ERROR: Kohana_Exception [ 0 ]: The usuario property does not exist in the Model_Envio class ~ MODPATH/orm/classes/kohana/orm.php [ 373 ]
+2010-10-02 12:26:07 --- ERROR: Kohana_Exception [ 0 ]: The usuario property does not exist in the Model_Envio class ~ MODPATH/orm/classes/kohana/orm.php [ 373 ]
+2010-10-02 12:26:07 --- ERROR: Kohana_Exception [ 0 ]: The usuario property does not exist in the Model_Envio class ~ MODPATH/orm/classes/kohana/orm.php [ 373 ]
+2010-10-02 12:27:09 --- ERROR: ErrorException [ 1 ]: Class 'Model_Usuarios' not found ~ MODPATH/orm/classes/kohana/orm.php [ 112 ]
+2010-10-02 12:39:06 --- ERROR: Kohana_View_Exception [ 0 ]: The requested view envio/completo could not be found ~ SYSPATH/classes/kohana/view.php [ 252 ]
+2010-10-02 15:06:22 --- ERROR: ErrorException [ 8 ]: Undefined variable: categoria ~ APPPATH/classes/controller/envio.php [ 110 ]
+2010-10-02 15:22:30 --- ERROR: ErrorException [ 2 ]: Missing argument 2 for Kohana_Database_Query_Builder_Where::where(), called in /var/www/cc/modules/orm/classes/kohana/orm.php on line 704 and defined ~ MODPATH/database/classes/kohana/database/query/builder/where.php [ 30 ]
+2010-10-02 15:22:30 --- ERROR: ErrorException [ 2 ]: Missing argument 2 for Kohana_Database_Query_Builder_Where::where(), called in /var/www/cc/modules/orm/classes/kohana/orm.php on line 704 and defined ~ MODPATH/database/classes/kohana/database/query/builder/where.php [ 30 ]
+2010-10-02 15:22:30 --- ERROR: ErrorException [ 2 ]: Missing argument 2 for Kohana_Database_Query_Builder_Where::where(), called in /var/www/cc/modules/orm/classes/kohana/orm.php on line 704 and defined ~ MODPATH/database/classes/kohana/database/query/builder/where.php [ 30 ]

@@ -1,0 +1,21 @@
+<?php
+
+defined('SYSPATH') or die('No direct script access.');
+
+class Controller_Welcome extends Controller_Plantilla_General {
+
+    public function action_index()
+    {
+	$this->template->titulo = "Inicio - ".$this->nombre_consejo;
+	
+    }
+
+    public function action_index()
+    {
+	$this->template->titulo = "Yahooooo! - ".$this->nombre_consejo;
+	
+    }
+
+}
+
+// End Welcome
